@@ -1,0 +1,33 @@
+.bg-top-nav {
+    background-color: #233f3e;
+    color: #fff;
+}
+
+.custome-nav-top,
+.bg-top-nav p {
+    font-size: 14px;
+}
+
+.custome-nav-top a {
+    padding: 7px;
+}
+
+.custome-nav-top .border-left {
+    border-color: #4a4a4a !important;
+}
+
+.shop-card {
+    background-color: transparent;
+}
+
+.shop-card span {
+    font-size: 16;
+}
+
+.shop-card i {
+    vertical-align: -2;
+}
+
+.custome-dropdown-toggle::after {
+    vertical-align: 0%;
+}

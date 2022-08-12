@@ -1,0 +1,36 @@
+@import '_top_nav.css';
+p {
+    margin: 0px;
+}
+
+.btn-font-size-14 {
+    font-size: 0.9rem;
+}
+
+.nav-custome {
+    text-align: center;
+}
+
+.nav-custome ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding-top: 5px;
+}
+
+.nav-custome ul li a {
+    padding-right: 0.5rem;
+    padding-left: 0.51rem;
+    text-decoration: none;
+    border-bottom: 1px;
+    color: rgb(74, 74, 74);
+}
+
+.nav-custome ul li a:hover {
+    color: black;
+    font-size: 1.1rem;
+    border-bottom: 2px solid black;
+}
+
+.brd-b {
+    border-bottom: 1rem solid balck;
+}
