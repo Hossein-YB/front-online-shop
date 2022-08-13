@@ -31,3 +31,16 @@
 .custome-dropdown-toggle::after {
     vertical-align: 0%;
 }
+
+.basket {
+    width: 300px!important;
+}
+
+.basket a {
+    font-size: 14px;
+}
+
+.basket a img {
+    width: 64px;
+    height: 64px;
+}

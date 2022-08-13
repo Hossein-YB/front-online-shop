@@ -34,3 +34,7 @@ p {
 .brd-b {
     border-bottom: 1rem solid balck;
 }
+
+ul {
+    list-style-type: none;
+}
