@@ -44,3 +44,7 @@
     width: 64px;
     height: 64px;
 }
+
+.custom-navbar-nav {
+    font-size: 15px;
+}
