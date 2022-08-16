@@ -73,3 +73,11 @@
     margin-right: 7px;
     color: aqua !important;
 }
+
+.custome-navbar-toggler {
+    border: none;
+}
+
+.input-top-nav-search::-webkit-input-placeholder {
+    font-size: 12px;
+}

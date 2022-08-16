@@ -1,4 +1,4 @@
-@import '_top_nav.css';
+    @import '_top_nav.css';
 p {
     margin: 0px;
 }
@@ -42,3 +42,8 @@ ul {
 .pr-2-5 {
     padding-right: 2.5rem !important;
 }
+
+@media (max-width: 576px) {
+    .cu-mt-sm-3 {
+        margin-top: 1rem !important;
+    }
