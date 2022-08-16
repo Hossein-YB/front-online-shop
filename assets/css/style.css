@@ -38,3 +38,7 @@ p {
 ul {
     list-style-type: none;
 }
+
+.pr-2-5 {
+    padding-right: 2.5rem !important;
+}

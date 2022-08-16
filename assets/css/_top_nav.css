@@ -1,5 +1,5 @@
 .bg-top-nav {
-    background-color: #233f3e;
+    background-color: #232f3e;
     color: #fff;
 }
 
@@ -47,4 +47,29 @@
 
 .custom-navbar-nav {
     font-size: 15px;
+}
+
+.position-unset,
+.custom-navbar-nav .nav-item {
+    position: unset;
+}
+
+.dropdown-img img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.dropdown-img ul li a {
+    color: rgb(49, 49, 49) !important;
+    font-size: 13px;
+}
+
+.dropdown-img ul li a i {
+    vertical-align: -2;
+}
+
+.dropdown-img ul li a:hover {
+    margin-right: 7px;
+    color: aqua !important;
 }
