@@ -12,4 +12,7 @@ img.d-block {
         flex: 0 0 50%;
         max-width: 50%;
     }
+    img.d-block {
+        max-height: 250px;
+    }
 }
