@@ -1,0 +1,15 @@
+img.d-block {
+    height: 300px;
+}
+
+.custome-col-lg-3 {
+    flex: 0 0 20.4%;
+    max-width: 25%;
+}
+
+@media screen and (max-width:991px) {
+    .custome-col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

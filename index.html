@@ -15,8 +15,10 @@
 </head>
 
 <body class="rtl">
+    <!-- start top nav -->
     <div class="container-fluid bg-top-nav">
         <div class="row">
+            <!-- start top menu -->
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
@@ -32,13 +34,15 @@
                     </div>
                 </div>
             </div>
+            <!-- end top nav -->
+            <!-- start serch box and basket -->
             <div class="container my-4">
                 <div class="row">
                     <div class="col-sm-12 col-md-9">
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <button class="btn btn-secondary dropdown-toggle btn-font-size-14" type="button" data-toggle="dropdown">دسته بندی ها</button>
-                                <div class="dropdown-menu">
+                                <div class="dropdown-menu w-75">
                                     <a class="dropdown-item" href="#">موبایل</a>
                                     <a class="dropdown-item" href="#">قطعات کامپیوتر</a>
                                     <a class="dropdown-item" href="#">پوشاک</a>
@@ -85,6 +89,8 @@
                     </div>
                 </div>
             </div>
+            <!-- end serch box and basket -->
+            <!-- start menu -->
             <nav class="w-100 position-relative">
                 <div class="container">
                     <div class="row">
@@ -105,7 +111,7 @@
                                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                                     لوازم خانگی
                                   </a>
-                                        <div class="dropdown-menu  w-100 dropdown-img border-0s" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu  w-100 dropdown-img border-0s shadow" aria-labelledby="navbarDropdown">
                                             <img class="d-none d-xl-block" src="assets/img/home.jpg" alt="">
                                             <div class="container">
                                                 <div class="row w-100">
@@ -226,9 +232,75 @@
                     </div>
                 </div>
             </nav>
+            <!-- end top menu -->
         </div>
 
     </div>
+    <!-- end top nav -->
+    <!-- start slider-->
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-sm-12 col-lg-7">
+                <div id="carouselExampleIndicators" class="carousel slide slider" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner shadow">
+                        <div class="carousel-item active ">
+                            <a href="#" class="">
+                                <img class="d-block w-100" src="assets/img/silder1.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h6>جدید تری ساعت های هوشمند</h6>
+                                    <p class="bg-warning">زندگی مدرن ایرانی</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#" class="">
+                                <img class="d-block w-100" src="assets/img/slider2.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h6>هارد های ای دیتا با 24 ماه ضمانت</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#" class="">
+                                <img class="d-block w-100" src="assets/img/slider3.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h6>فروش ویژه تا 10 درصد به صورت شانسی</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/img/slider4.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p><span class="bg-dark text-light">با تخفیف بخر و برنده جایزه شو</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 custome-col-lg-3 cu-mt-lg-3">
+                <img src="assets/img/side3.jpg" class="w-100 h-100 img-fluid" alt="">
+            </div>
+            <div class="col-sm-12 col-md-2 custome-col-lg-3 d-flex flex-column justify-content-around cu-mt-lg-3">
+                <img src="assets/img/side1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/side2.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end slider -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
