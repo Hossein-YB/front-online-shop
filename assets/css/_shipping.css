@@ -1,0 +1,16 @@
+.shipping_wrapper {
+    padding: 14px;
+}
+
+.shipping_wrapper img {
+    width: 50px;
+    height: 52px;
+    margin-left: 8px;
+    /* margin-top: 2px; */
+}
+
+.shipping_wrapper p {
+    vertical-align: -8px;
+    font-size: 13px;
+    align-items: center;
+}
