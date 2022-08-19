@@ -7,7 +7,7 @@ img.d-block {
     max-width: 25%;
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:991.5px) {
     .custome-col-lg-3 {
         flex: 0 0 50%;
         max-width: 50%;

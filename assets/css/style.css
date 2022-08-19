@@ -50,6 +50,12 @@ ul {
     }
 }
 
+@media (max-width: 991) {
+    .cu-mt-lg-3 {
+        margin-top: 1rem !important;
+    }
+}
+
 @media (max-width:1200px) {
     .container,
     .container-sm,
