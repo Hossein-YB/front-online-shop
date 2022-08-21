@@ -12,7 +12,19 @@ img.d-block {
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .slid-2 {
+        flex: 0 0 60% !important;
+        max-width: 60% !important;
+    }
+    .slid-1 {
+        flex: 0 0 40% !important;
+        max-width: 40% !important
+    }
+    .custome-col-lg-3 img {
+        max-height: 300px;
+        /* max-width: auto; */
+    }
     img.d-block {
-        max-height: 250px;
+        max-height: 300px;
     }
 }
