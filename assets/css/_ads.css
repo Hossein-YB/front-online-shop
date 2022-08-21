@@ -1,0 +1,4 @@
+.item-categori:hover {
+    z-index: 1;
+    box-shadow: 0 0 7px 1px #ccc;
+}
