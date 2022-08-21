@@ -1,6 +1,7 @@
 @import '_top_nav.css';
 @import '_slider.css';
 @import '_shipping.css';
+@import '_ads.css';
 p {
     margin: 0px;
 }
@@ -64,5 +65,60 @@ ul {
     .container-lg,
     .container-xl {
         max-width: 1340px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .item-catrgori img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .c-col-sm-1 {
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .c-col-sm-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .c-col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .c-col-sm-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .c-col-sm-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .c-col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .c-col-sm-7 {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .c-col-sm-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .c-col-sm-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .c-col-sm-10 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .c-col-sm-11 {
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .c-col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
