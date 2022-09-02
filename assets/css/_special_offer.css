@@ -1,0 +1,108 @@
+.offer-card {
+    font-size: 14px;
+}
+
+.custome-nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+}
+
+.custome-nav-tabs .nav-link.active,
+.custome-nav-tabs .nav-item.show .nav-link {
+    color: rgb(238, 99, 99);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.custome-nav-tabs .nav-link:hover,
+.custome-nav-tabs .nav-link:focus {
+    border-color: transparent;
+}
+
+.offer-detail h6 {
+    color: #9891ff;
+}
+
+.offer-detail .offer-rating {
+    color: #caca14;
+    font-size: 16px;
+}
+
+.offer-detail .offer-price p s {
+    color: rgb(167, 26, 26);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.offer-detail .count-down-timer p {
+    font-size: 16;
+}
+
+.count-down-timer #demo {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.count-down-timer #demo span#day {
+    margin-right: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.count-down-timer #demo span#day::after {
+    content: 'روز';
+    position: absolute;
+    top: 20px;
+    font-size: 14px;
+    right: -5px;
+}
+
+.count-down-timer #demo #clock {
+    text-align: center;
+    position: relative;
+}
+
+.count-down-timer #demo #clock::after {
+    content: "ساعت";
+    position: absolute;
+    top: 20px;
+    font-size: 14px;
+    right: 15px;
+}
+
+#offer-expire-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#inner-offer-expire-text {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.offer-img {
+    overflow: hidden;
+    height: 150px;
+}
+
+.offer-img img {
+    width: 150px;
+}
+
+.offer-img:hover .first-img,
+.offer-img:hover .second-img {
+    transform: translateY(-150px);
+}
+
+.offer-img .first-img,
+.offer-img .second-img {
+    transition: 0.5s;
+}
