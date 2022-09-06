@@ -90,11 +90,11 @@
 
 .offer-img {
     overflow: hidden;
-    height: 150px;
+    max-height: 150px;
 }
 
 .offer-img img {
-    width: 150px;
+    max-width: 150px;
 }
 
 .offer-img:hover .first-img,
@@ -105,4 +105,8 @@
 .offer-img .first-img,
 .offer-img .second-img {
     transition: 0.5s;
+}
+
+.owl-carousel.owl-rtl .owl-item {
+    margin-bottom: 10px;
 }
