@@ -19,15 +19,34 @@ var x = setInterval(function() {
     // Display the result in the element with id="demo"
     document.getElementById("demo").innerHTML = '<span id="day">' + days + '</span> <p id="clock"> ' + '<span id="hours">' + hours + ' : </span>' +
         '<span id="minutes">' + minutes + ' : </span>' + '<span id="seconds">' + seconds + '</span></p>';
-
+    var z = document.getElementsByClassName("demos");
+    for (var i = 0; i < z.length; i++) {
+        z[i].innerHTML = '<span id="day">' + days + '</span> <p id="clock"> ' + '<span id="hours">' + hours + ' : </span>' +
+            '<span id="minutes">' + minutes + ' : </span>' + '<span id="seconds">' + seconds + '</span></p>';
+    }
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = '<span id="day">' + 0 + '</span> <p id="clock"> ' + '<span id="hours">' + 00 + ' : </span>' +
-            '<span id="minutes">' + 00 + ' : </span>' + '<span id="seconds">' + 00 + '</span></p>';
-        document.getElementById("after-expire").setAttribute("id", "offer-expire-text");
-        document.getElementById("inner-offer-expire-text").innerHTML = "پیشنهاد ویژه این محصول به پایان رسید!";
-        document.getElementById("offer-card").style.filter = 'blur(2px)';
+        var demos = document.getElementsByClassName("demos");
+        for (var i = 0; i < z.length; i++) {
+            z[i].innerHTML = '<span id="day">' + 0 + '</span> <p id="clock"> ' + '<span id="hours">' + 00 + ' : </span>' +
+                '<span id="minutes">' + 00 + ' : </span>' + '<span id="seconds">' + 00 + '</span></p>';
+        }
+
+        var expire = document.getElementsByClassName("after-expire");
+        for (var i = 0; i < z.length; i++) {
+            expire[i].setAttribute("id", "offer-expire-text");
+        }
+
+        var inner_expire = document.getElementsByClassName("after-expire");
+        for (var i = 0; i < z.length; i++) {
+            inner_expire[i].innerHTML = "پیشنهاد ویژه این محصول به پایان رسید!";
+        }
+
+        var offer_card = document.getElementsByClassName("offer-card");
+        for (var i = 0; i < z.length; i++) {
+            offer_card[i].style.filter = 'blur(2px)';
+        }
     }
 }, 1000);
 
