@@ -90,7 +90,7 @@
 
 .offer-img {
     overflow: hidden;
-    max-height: 150px;
+    max-height: 140px;
 }
 
 .offer-img img {
@@ -99,7 +99,7 @@
 
 .offer-img:hover .first-img,
 .offer-img:hover .second-img {
-    transform: translateY(-150px);
+    transform: translateY(-140px);
 }
 
 .offer-img .first-img,
@@ -111,7 +111,7 @@
     margin-bottom: 10px;
 }
 
-@media (min-width: 599px) and (max-width: 740px) {
+@media (min-width: 599px) and (max-width: 716px) {
     .offer-img {
         overflow: hidden;
         max-height: 110px;
@@ -122,6 +122,24 @@
     .offer-img:hover .first-img,
     .offer-img:hover .second-img {
         transform: translateY(-110px);
+    }
+    .offer-img .first-img,
+    .offer-img .second-img {
+        transition: 0.5s;
+    }
+}
+
+@media (min-width: 716px) and (max-width: 780px) {
+    .offer-img {
+        overflow: hidden;
+        max-height: 130px;
+    }
+    .offer-img img {
+        max-width: 150px;
+    }
+    .offer-img:hover .first-img,
+    .offer-img:hover .second-img {
+        transform: translateY(-130px);
     }
     .offer-img .first-img,
     .offer-img .second-img {

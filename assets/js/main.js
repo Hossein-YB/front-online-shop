@@ -54,11 +54,15 @@ $('.owl-carousel').owlCarousel({
     rtl: true,
     loop: true,
     margin: 10,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: false,
     responsiveClass: true,
     responsive: {
         0: {
             items: 1,
-            nav: true
+            nav: true,
+            autoHeight: true
         },
         600: {
             items: 2,
