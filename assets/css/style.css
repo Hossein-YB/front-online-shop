@@ -69,6 +69,46 @@ ul {
     }
 }
 
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 27px;
+    width: 100%;
+    display: flex;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    right: -4px;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    left: -4px;
+}
+
+.owl-carousel .owl-nav button {
+    width: 28px;
+}
+
+.owl-carousel .owl-nav .owl-next span,
+.owl-carousel .owl-nav .owl-prev span {
+    display: block;
+    font-size: 66px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 4px #efefef;
+}
+
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next span:focus,
+.owl-carousel .owl-nav .owl-prev:focus,
+.owl-carousel .owl-nav .owl-prev span:focus {
+    outline: none;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    color: black;
+}
+
 @media (max-width: 576px) {
     .item-catrgori img {
         max-width: 150px;

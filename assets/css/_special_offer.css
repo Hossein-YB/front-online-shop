@@ -110,3 +110,21 @@
 .owl-carousel.owl-rtl .owl-item {
     margin-bottom: 10px;
 }
+
+@media (min-width: 599px) and (max-width: 740px) {
+    .offer-img {
+        overflow: hidden;
+        max-height: 110px;
+    }
+    .offer-img img {
+        max-width: 150px;
+    }
+    .offer-img:hover .first-img,
+    .offer-img:hover .second-img {
+        transform: translateY(-110px);
+    }
+    .offer-img .first-img,
+    .offer-img .second-img {
+        transition: 0.5s;
+    }
+}
