@@ -1,3 +1,11 @@
+.offer-title {
+    padding: 0.6rem;
+    left: 0px;
+    padding-bottom: 3.5px;
+    border-bottom: 2px solid red;
+    font-size: 16px;
+}
+
 .offer-card {
     font-size: 14px;
 }
@@ -8,6 +16,25 @@
     border-top-right-radius: 0px;
     font-size: 15px;
     color: rgb(68, 68, 68);
+}
+
+@media screen and (max-width: 521px) {
+    .offer-title {
+        padding: 0.6rem;
+        left: 0px;
+        padding-bottom: 3.5px;
+        border-bottom: 2px solid red;
+        font-size: 13px;
+    }
+    .custome-nav-tabs .nav-link {
+        display: block;
+        padding: 0.5rem 0.3rem;
+        border: none;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        font-size: 12px;
+        color: rgb(68, 68, 68);
+    }
 }
 
 .custome-nav-tabs .nav-link.active,
