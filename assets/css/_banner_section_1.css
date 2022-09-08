@@ -1,0 +1,11 @@
+.banner-offer {
+    overflow: hidden;
+}
+
+.banner-offer img {
+    transition: 2s ease;
+}
+
+.banner-offer:hover img {
+    transform: scale(1.1);
+}
