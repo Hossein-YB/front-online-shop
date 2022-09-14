@@ -50,7 +50,7 @@ var x = setInterval(function() {
     }
 }, 1000);
 
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-0').owlCarousel({
     rtl: true,
     loop: true,
     margin: 10,
@@ -76,6 +76,25 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+$('.owl-carousel-1').owlCarousel({
+    rtl: true,
+    loop: true,
+    responsive: {
+        0: {
+            items: 4,
+            nav: true,
+        },
+        600: {
+            items: 7,
+            nav: false
+        },
+        1000: {
+            items: 9,
+            nav: true,
+            loop: false
+        }
+    }
+})
 $('.tt').toolip('show');
 
 $('.po').popover('show');

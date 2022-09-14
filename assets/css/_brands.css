@@ -1,0 +1,29 @@
+.owl-carousel-1 {
+    display: flex;
+}
+
+.brand {
+    border: 0.05rem solid black;
+    display: flex;
+    align-self: center;
+}
+
+.banner-card {
+    /* max-width: 150px; */
+    /* margin: 0px 0px !important; */
+    /* border-right: 0.03rem solid black; */
+}
+
+.banner-card img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 10px;
+}
+
+.owl-carousel-1 .owl-nav {
+    top: 0px !important;
+}
+
+.owl-carousel-1 .owl-dots {
+    display: none !important;
+}
