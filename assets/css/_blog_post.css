@@ -1,0 +1,7 @@
+.blog-post {
+    max-height: 250px;
+}
+
+div.blog-post div.card p {
+    font-size: 14px;
+}
