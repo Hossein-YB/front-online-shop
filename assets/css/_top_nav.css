@@ -81,3 +81,7 @@
 .input-top-nav-search::-webkit-input-placeholder {
     font-size: 12px;
 }
+
+.login i {
+    vertical-align: -5px;
+}
