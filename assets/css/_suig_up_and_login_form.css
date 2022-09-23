@@ -1,0 +1,30 @@
+.login-form input[type=email],
+.login-form input[type=password] {
+    border: none;
+    border-bottom: 1px solid #efefef;
+    border-radius: 0px;
+}
+
+.login-form label {
+    font-size: 14px;
+}
+
+.modal-login h5 {
+    font-size: 18px;
+}
+
+.login-form .form-check {
+    margin-bottom: 1rem;
+}
+
+.login-form .form-check input[type=checkbox] {
+    position: unset;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.modal-login .modal-footer a {
+    color: rgb(87, 136, 255);
+    text-decoration: none;
+    font-size: 15px;
+}

@@ -229,56 +229,38 @@
                                     </li>
                                 </ul>
 
-                                <a href="" class="text-warning text-decoration-none pr-2-5 login" data-toggle="modal" data-target="#login-tag"><i class="fa-solid fa-right-to-bracket"></i> ورود</a>
-                                <a href="" class="text-warning text-decoration-none pr-2-5" data-toggle="modal" data-target="#sing-up-tag"><i class="fa-solid fa-user-plus"></i> ثبت نام</a>
-                                <!-- <a href="" class="text-warning text-decoration-none pr-2-5">تخفیفات ویژه</a> -->
-                                <!--  start Modal sing up -->
-                                <div class="modal fade text-dark" id="sing-up-tag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-dark">ثبت نام</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--  end Modal sing up -->
+                                <a href="" class="text-warning d-sm-block text-decoration-none pr-2-5 login" data-toggle="modal" data-target="#login-tag"><i class="fa-solid fa-right-to-bracket"></i> ورود</a>
+                                <a href="" class="text-warning d-sm-block text-decoration-none pr-2-5" data-toggle="modal" data-target="#sing-up-tag"><i class="fa-solid fa-user-plus"></i> ثبت نام</a>
                                 <!--  start Modal login -->
                                 <div class="modal fade text-dark" id="login-tag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel">ورود به سایت</h5>
+                                        <div class="modal-content modal-login">
+                                            <div class="modal-header border-0">
+                                                <h5 class="modal-title text-center w-100" id="exampleModalLabel">ورود به سایت</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                           </button>
                                             </div>
                                             <div class="modal-body">
-                                                <form>
+                                                <form class="login-form">
                                                     <div class="form-group">
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ایمیل یا نام کاربری...">
+                                                        <label for="exampleInputEmail1">آدرس ایمیل یا نام کاربری</label>
+                                                        <input type="email" class="form-control form-control-sm" id="exampleInputEmail1">
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="رمز...">
+                                                        <label for="exampleInputPassword1">رمز</label>
+                                                        <input type="password" class="form-control form-control-sm" id="exampleInputPassword1">
                                                     </div>
                                                     <div class="form-check">
                                                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                        <label class="form-check-label" for="exampleCheck1">منو به خاطر بسپار</label>
+                                                        <label class="form-check-label pl-2" for="exampleCheck1">مرا به خاطر بسپار</label>
                                                     </div>
-                                                    <button type="submit" class="btn btn-primary">ورود</button>
+                                                    <button type="submit" class="btn btn-success btn-sm d-block w-100">ورود</button>
                                                 </form>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            <div class="modal-footer border-0 d-flex justify-content-around">
+                                                <a href="#">رمز عبور خود را فراموش کرده اید؟</a>
+                                                <a href="#">عضویت در سایت</a>
                                             </div>
                                         </div>
                                     </div>
