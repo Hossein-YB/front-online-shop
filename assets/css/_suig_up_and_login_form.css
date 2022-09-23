@@ -28,3 +28,14 @@
     text-decoration: none;
     font-size: 15px;
 }
+
+.sing-up .sing-up-form label,
+.sing-up .sing-up-form button,
+.sing-up p.text-login {
+    font-size: 14px;
+}
+
+.sing-up div p.text-login a {
+    font-size: 15px;
+    text-decoration: none;
+}
