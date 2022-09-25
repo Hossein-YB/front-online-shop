@@ -8,6 +8,7 @@
 @import '_brands.css';
 @import '_blog_post.css';
 @import '_footer.css';
+@import '_product-breadcrum.css';
 p {
     margin: 0px;
 }

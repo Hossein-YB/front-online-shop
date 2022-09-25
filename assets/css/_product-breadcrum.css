@@ -1,0 +1,14 @@
+.custome-breadcrumb {
+    margin: 0px 0px;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+
+/* .custome-breadcrumb{
+
+} */
+
+.custome-breadcrumb-item+.custome-breadcrumb-item::before {
+    content: "<";
+}
