@@ -1,0 +1,42 @@
+.f-info {
+    font-size: 14px;
+}
+
+ul.information {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.item-info p {
+    display: inline;
+}
+
+.item-info i {
+    font-size: 6px;
+    color: rgb(118, 118, 118);
+}
+
+.item-info p.q-info {
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+}
+
+.item-info p.a-info {
+    font-size: 15px;
+}
+
+p.product-star {
+    font-size: 15px;
+}
+
+p.product-star i {
+    margin-top: 20px;
+}
+
+.color-gold {
+    color: gold;
+}
+
+.icons-top i {
+    padding-left: 10px;
+}
