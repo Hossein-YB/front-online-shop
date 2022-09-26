@@ -10,6 +10,7 @@
 @import '_footer.css';
 @import '_product-breadcrum.css';
 @import '_product_info.css';
+@import '_product_tab.css';
 p {
     margin: 0px;
 }
