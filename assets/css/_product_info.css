@@ -40,3 +40,21 @@ p.product-star i {
 .icons-top i {
     padding-left: 10px;
 }
+
+.product-categori p {
+    font-size: 13px;
+}
+
+.product-categori a {
+    font-size: 9px;
+}
+
+.add-in-shop-card {
+    display: flex;
+    justify-content: center;
+}
+
+.add-in-shop-card label,
+.add-in-shop-card button {
+    font-size: 14px;
+}
