@@ -6,6 +6,11 @@
     border-top: 4px red solid;
 }
 
+.custome-product-nav-tabs .nav-link:hover {
+    border: none;
+    border-top: red solid 1px;
+}
+
 .custome-product-tab-pan {
     background-color: #dbdbdb0a;
 }
@@ -33,7 +38,7 @@
 }
 
 
-/* .disc-img {
+/* .desc-img {
     height: 300px;
 } */
 
