@@ -1,0 +1,46 @@
+.custome-product-nav-tabs .nav-link {
+    border-radius: 0px !important;
+}
+
+.custome-product-nav-tabs .nav-link.active {
+    border-top: 4px red solid;
+}
+
+.custome-product-tab-pan {
+    background-color: #dbdbdb0a;
+}
+
+.custome-product-tab-pan h4 {
+    color: #848181;
+}
+
+.custome-product-tab-pan p.product-desc {
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.product-rate {
+    background-color: #e3e3e305;
+}
+
+.product-all-rate p {
+    font-size: 14px;
+}
+
+.benfit-list li {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+/* .disc-img {
+    height: 300px;
+} */
+
+.benfit-list li i {
+    font-size: 13px;
+}
+
+.custome-progress-bar {
+    background-color: rgb(23, 163, 23);
+}
