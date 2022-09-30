@@ -179,4 +179,24 @@ ul {
     .sm-radius-5 {
         border-radius: 10%;
     }
+    .c-mb-sm-1,
+    .c-my-sm-1 {
+        margin-bottom: 0.25rem !important;
+    }
+    .c-mb-sm-2,
+    .c-my-sm-2 {
+        margin-bottom: 0.5rem !important;
+    }
+    .c-mb-sm-3,
+    .c-my-sm-3 {
+        margin-right: 1rem !important;
+    }
+    .c-mb-sm-4,
+    .c-my-sm-4 {
+        margin-bottom: 1.5rem !important;
+    }
+    .c-mb-sm-5,
+    .c-my-sm-5 {
+        margin-bottom: 3rem !important;
+    }
 }
