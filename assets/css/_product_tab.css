@@ -49,3 +49,118 @@
 .custome-progress-bar {
     background-color: rgb(23, 163, 23);
 }
+
+li.details-product p.details-title {
+    font-size: 18px;
+    color: #1e1e1e;
+    margin-bottom: 1rem;
+}
+
+li.details-product p.details-title i {
+    vertical-align: -3px;
+    margin-left: 3px;
+}
+
+li.details-product .key {
+    background-color: #f7f7f7 !important;
+    flex: 0 0 20%;
+    height: auto;
+    font-size: 15px;
+}
+
+li.details-product .value {
+    background-color: #f7f7f7 !important;
+    flex: 0 0 80%;
+    height: auto;
+    font-size: 15px;
+}
+
+@media (max-width: 576px) {
+    li.details-product .key {
+        flex: 0 0 25%;
+        font-size: 12px;
+    }
+    li.details-product .value {
+        flex: 0 0 75%;
+        font-size: 12px;
+    }
+}
+
+
+/* start comment styls */
+
+.comment-title p:first-child {
+    font-size: 15px;
+    color: #505050;
+}
+
+.comment-title p:nth-child(2) {
+    color: #505050;
+}
+
+.comment-title a i {
+    vertical-align: -4px;
+}
+
+.customer-img {
+    width: 15%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.custome-product-media h5 {
+    font-size: 16px;
+}
+
+.custome-product-media div.user-details p {
+    font-size: 15px;
+}
+
+.custome-product-media div.user-details .bg-custome {
+    font-size: 16px;
+}
+
+.custome-product-media div.user-details .bg-custome i {
+    color: gold;
+}
+
+.custome-product-media div.user-details .product-color,
+.custome-product-media div.user-details .product-supplier {
+    font-size: 15px;
+}
+
+.user-p-comment p {
+    font-size: 18px;
+}
+
+.user-p-comment .benfit-product-title {
+    font-size: 16px;
+}
+
+.user-p-comment ul.nav li i {
+    font-size: 5px;
+    color: #8888fb;
+}
+
+.user-p-comment ul.nav li {
+    font-size: 13px;
+}
+
+.user-p-comment .vote-comment {
+    font-size: 15px;
+    text-align: left;
+}
+
+.user-p-comment .vote-comment span {
+    font-size: 13px;
+    padding: 4px 10px;
+}
+
+.add-comment .add-comment-title {
+    font-size: 18px;
+}
+
+.add-comment .add-comment-title i {
+    font-size: 20px;
+    vertical-align: -2px;
+}

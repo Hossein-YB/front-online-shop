@@ -229,8 +229,8 @@
                                     </li>
                                 </ul>
 
-                                <a href="" class="text-warning d-sm-block text-decoration-none pr-2-5 login" data-toggle="modal" data-target="#login-tag"><i class="fa-solid fa-right-to-bracket"></i> ورود</a>
-                                <!-- <a href="" class="text-warning d-sm-block text-decoration-none pr-2-5" data-toggle="modal" data-target="#sing-up-tag"><i class="fa-solid fa-user-plus"></i> ثبت نام</a> -->
+                                <a href="" class="text-warning d-sm-block text-decoration-none pr-2-5" id="login-modal" data-toggle="modal" data-target="#login-tag"><i class="fa-solid fa-right-to-bracket"></i> ورود</a>
+                                <a href="" class="text-warning d-sm-block text-decoration-none pr-2-5" data-toggle="modal" data-target="#sing-up-tag"><i class="fa-solid fa-user-plus"></i> ثبت نام</a>
                                 <!--  start Modal login -->
                                 <div class="modal fade text-dark" id="login-tag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -424,22 +424,140 @@
     </div>
     <!-- start product info -->
     <!-- end tabs -->
-    <div class="container mt-4">
+    <div class="container my-5">
         <div class="row">
             <div class="col-sm-12">
                 <ul class="nav nav-tabs custome-product-nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">نقد و برس</a>
+                        <a class="nav-link active" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="">مشخصات فنی</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">مشخصات فنی</a>
+                        <a class="nav-link" id="desc-tab" data-toggle="tab" href="#desc" role="tab" aria-controls="desc" aria-selected="true">نقد و برس</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">پرسش و پاسخ</a>
+                        <a class="nav-link" id="comment-tab" data-toggle="tab" href="#comment" role="tab" aria-controls="comment" aria-selected="false">پرسش و پاسخ</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade custome-product-tab-pan" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="tab-pane fade custome-product-tab-pan show active" id="details" role="tabpanel" aria-labelledby="details-tab">
+                        <h4 class="p-3">مشخصات فنی</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item details-product">
+                                <div>
+                                    <p class="details-title"><i class="fas fa-caret-left"></i>مشخصات عمومی</p>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>شبکه 2G</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>GSM 850 / 900 / 1800 / 1900 - سیم کارت 1 & سیم کارت 2
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>شبکه 3G</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>شبکه 4G</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>1, 2, 3, 4, 5, 8, 18, 19, 26, 34, 38, 39, 40, 41
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>سیم کارت</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>دو سیم کارته (نانو سیم کارت, استندبای دوگانه)
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item details-product">
+                                <div>
+                                    <p class="details-title"><i class="fas fa-caret-left"></i>بدنه</p>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p> ابعاد</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>160x73.7x7.8 میلیمتر (6.30x2.90x0.31 اینچ)
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>وزن</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>175 گرم (6.17 oz)
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                </div>
+                            </li>
+                            <li class="nav-item details-product">
+                                <div>
+                                    <p class="details-title"><i class="fas fa-caret-left"></i>دوربین پشت</p>
+                                    <ul class="nav flex-column">
+                                        <li class="d-flex mb-3 h-100">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>چهار لنز مجزا</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>
+                                                    50 مگاپیکسل, f/1.9, 23mm (wide), PDAF <br> 8 مگاپیکسل, f/2.2, (ultrawide) <br> 2 مگاپیکسل, f/2.4, (depth) <br> 2 مگاپیکسل, f/2.4, (macro) <br>
+
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>دیگر امکانات</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>فلش LED, پانوراما, تصویربرداری HDR</p>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p>فیلم برداری</p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>4K, 1080p, فیلم برداری 720p با سرعت 960 فریم در ثانیه, ژیروسکوپ-EIS
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item d-flex mb-3">
+                                            <div class="key d-flex align-items-center px-md-3 px-sm-1">
+                                                <p></p>
+                                            </div>
+                                            <div class="value px-md-3 d-flex align-items-center px-sm-1">
+                                                <p>
+
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            </ul>
+                    </div>
+                    <div class="tab-pane fade custome-product-tab-pan" id="desc" role="tabpanel" aria-labelledby="desc-tab">
                         <h4 class="p-3">
                             نقد و بررسی مشخصات گوشی Nova 9 SE هواوی
                         </h4>
@@ -568,10 +686,235 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade  show active custome-product-tab-pan" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <h4 class="p-3">مشخصات فنی</h4>
+                    <div class="tab-pane fade custome-product-tab-pan" id="comment" role="tabpanel" aria-labelledby="comment-tab">
+                        <div class="container my-md-4 px-4">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 c-mb-sm-5 mb-sm-5 px-md-3">
+                                    <div class="product-rate">
+                                        <div class="m-3 product-all-rate w-100">
+                                            <p class="mb-2">طراحی گوشی</p>
+                                            <div class="progress" style="height: 3px;">
+                                                <div class="progress-bar custome-progress-bar" role="progressbar" style="width: 73%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="m-3 product-all-rate w-100">
+                                            <p class="mb-2">صفحه نمایش</p>
+                                            <div class="progress" style="height: 3px;">
+                                                <div class="progress-bar custome-progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="m-3 product-all-rate w-100">
+                                            <p class="mb-2">باتری گوشی</p>
+                                            <div class="progress" style="height: 3px;">
+                                                <div class="progress-bar custome-progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="m-3 product-all-rate w-100">
+                                            <p class="mb-2">امنیت گوشی</p>
+                                            <div class="progress" style="height: 3px;">
+                                                <div class="progress-bar custome-progress-bar" role="progressbar" style="width: 96%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="m-3 product-all-rate w-100">
+                                            <p class="mb-2">دوربین گوشی</p>
+                                            <div class="progress" style="height: 3px;">
+                                                <div class="progress-bar custome-progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 py-md-5 px-md-3">
+                                    <div class="comment-title">
+                                        <p class="mb-4">شما هم میتوانید درباره این کالا نظر دهید.</p>
+                                        <p>برای ثبت نظر لازم است که اول در سایت ثبت نام کنید یا اگر حسابی دارید وارد حساب کاربری خود شوید.</p>
+                                        <a href="#login-modal" class="btn btn-success mt-4 p-1"><i class="fas fa-sign-in-alt mr-1"></i>ورود یا ثبت نام</i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-4 border-bottom">
+                                <div class="col-sm-12">
+                                    <div class="media custome-product-media">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4">
+                                                    <div class="user-details">
+                                                        <img src="assets/img/cus.jpg" class="customer-img" alt="Generic placeholder image">
+                                                        <p class="mt-3">مینا خدایاری<span>( خریدار )</span></p>
+                                                        <div class="bg-custome bg-success p-2 my-2"><i class="far fa-thumbs-up mr-2"></i>خرید این محصول را پیشنهاد میکنم</div>
+                                                        <div class="product-color mb-2">رنگ: مشکی</div>
+                                                        <div class="product-supplier">فروشنده: فرشگاه لرن</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-8">
+                                                    <div class="media-body user-p-comment">
+                                                        <p>
+                                                            محصول بسیار خوببی هست و باز ها رو بدون هنگی اجرا میکنه
+                                                        </p>
+                                                        <ul class="nav flex-column">
+                                                            <span class="mt-2 text-primary benfit-product-title">نقاط قوت</span>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> پردازندش خوبه
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> هنگی نداره
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> بازی های سنگین رو به راحتی بازی میکنه
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> دوربین سلفیش عالیه
+                                                            </li>
+
+                                                        </ul>
+                                                        <ul class="nav flex-column">
+                                                            <span class="mt-2 text-danger benfit-product-title">نقاط ضعف</span>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> باطریش یکمی زود تموم میشه
+                                                            </li>
+                                                        </ul>
+                                                        <div class="m-3 vote-comment">آیا این نظر برای شما مفید بود؟
+                                                            <span class="bg-light mx-2">بله 10</span>
+                                                            <span class="bg-light">خیر 0</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row my-4 border-bottom">
+                                <div class="col-sm-12">
+                                    <div class="media custome-product-media">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4">
+                                                    <div class="user-details">
+                                                        <img src="assets/img/cus.jpg" class="customer-img" alt="Generic placeholder image">
+                                                        <p class="mt-3">مینا خدایاری<span>( خریدار )</span></p>
+                                                        <div class="bg-custome bg-success p-2 my-2"><i class="far fa-thumbs-up mr-2"></i>خرید این محصول را پیشنهاد میکنم</div>
+                                                        <div class="product-color mb-2">رنگ: مشکی</div>
+                                                        <div class="product-supplier">فروشنده: فرشگاه لرن</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-8">
+                                                    <div class="media-body user-p-comment">
+                                                        <p>
+                                                            محصول بسیار خوببی هست و باز ها رو بدون هنگی اجرا میکنه
+                                                        </p>
+                                                        <ul class="nav flex-column">
+                                                            <span class="mt-2 text-primary benfit-product-title">نقاط قوت</span>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> پردازندش خوبه
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> هنگی نداره
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> بازی های سنگین رو به راحتی بازی میکنه
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> دوربین سلفیش عالیه
+                                                            </li>
+
+                                                        </ul>
+                                                        <ul class="nav flex-column">
+                                                            <span class="mt-2 text-danger benfit-product-title">نقاط ضعف</span>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> باطریش یکمی زود تموم میشه
+                                                            </li>
+                                                        </ul>
+                                                        <div class="m-3 vote-comment">آیا این نظر برای شما مفید بود؟
+                                                            <span class="bg-light mx-2">بله 10</span>
+                                                            <span class="bg-light">خیر 0</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row my-4 border-bottom">
+                                <div class="col-sm-12">
+                                    <div class="media custome-product-media">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4">
+                                                    <div class="user-details">
+                                                        <img src="assets/img/cus.jpg" class="customer-img" alt="Generic placeholder image">
+                                                        <p class="mt-3">مینا خدایاری<span>( خریدار )</span></p>
+                                                        <div class="bg-custome bg-success p-2 my-2"><i class="far fa-thumbs-up mr-2"></i>خرید این محصول را پیشنهاد میکنم</div>
+                                                        <div class="product-color mb-2">رنگ: مشکی</div>
+                                                        <div class="product-supplier">فروشنده: فرشگاه لرن</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12 col-md-8">
+                                                    <div class="media-body user-p-comment">
+                                                        <p>
+                                                            محصول بسیار خوببی هست و باز ها رو بدون هنگی اجرا میکنه
+                                                        </p>
+                                                        <ul class="nav flex-column">
+                                                            <span class="mt-2 text-primary benfit-product-title">نقاط قوت</span>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> پردازندش خوبه
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> هنگی نداره
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> بازی های سنگین رو به راحتی بازی میکنه
+                                                            </li>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> دوربین سلفیش عالیه
+                                                            </li>
+
+                                                        </ul>
+                                                        <ul class="nav flex-column">
+                                                            <span class="mt-2 text-danger benfit-product-title">نقاط ضعف</span>
+                                                            <li class="nav-item pl-3 my1">
+                                                                <i class="fas fa-circle"></i> باطریش یکمی زود تموم میشه
+                                                            </li>
+                                                        </ul>
+                                                        <div class="m-3 vote-comment">آیا این نظر برای شما مفید بود؟
+                                                            <span class="bg-light mx-2">بله 10</span>
+                                                            <span class="bg-light">خیر 0</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="container add-comment">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="px-5">
+                                        <p class="add-comment-title my-3 bg-success p-2 text-white rounded"><i class="fas fa-comments mr-3"></i>دیدگاه خود را ارسال کنید</p>
+
+                                    </div>
+                                    <form class="my-5 px-5 form-row">
+                                        <div class="form-group col-sm-12">
+                                            <label for="inputEmail4">نام و نام خانوادگی</label>
+                                            <input type="text" class="form-control" placeholder=" حسین یعقوبی">
+                                        </div>
+                                        <div class="form-group col-sm-12">
+                                            <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="دیدگاه شما ..."></textarea>
+                                        </div>
+                                        <div class="form-group col-sm-12">
+                                            <button type="submit" class="btn btn-primary form-control">ثبت نظر</button>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
                 </div>
             </div>
         </div>
