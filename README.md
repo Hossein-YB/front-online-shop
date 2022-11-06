@@ -1,4 +1,5 @@
-# Internet-market
-Online store template with Bootstrap 4 and a little CSS
+<h1>online-shop</h1>
 
-I used from Bootstrap4 rtl 
+online shop with Bootstrap 4 and CSS and HTML
+
+I used from Bootstrap 4 rtl 
