@@ -305,7 +305,13 @@ input[type="number"] {
     text-align: center;
     font-size: 18px;
     display: block;
-    background-color: red;
+    background-color: green;
+}
+
+.cart-collaterals .btn-submit:hover {
+    color: rgb(20, 20, 20);
+    background-color: #17b900;
+    transition: 1s;
 }
 
 
