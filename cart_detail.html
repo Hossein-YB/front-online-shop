@@ -285,33 +285,33 @@
             </div>
         </div>
 
-        <div class="row bg-white p-1">
-            <div class="col-sm-12">
+        <div class="row bg-white p-1 pt-5">
+            <div class="col-sm-12 mt-5 mb-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 mb-md--50">
+                        <div class="col-sm-12 col-md-8 mb-md--50">
                             <form class="cart-form" action="#">
                                 <div class="row no-gutters">
                                     <div class="col-sm-12">
                                         <div class="">
-                                            <table class="table text-center table-responsive">
+                                            <table class="table table-responsive">
                                                 <thead>
                                                     <tr>
                                                         <th>&nbsp;</th>
                                                         <th>عکس محصول</th>
-                                                        <th class="text-left">نام محصول</th>
-                                                        <th class="text-left">قیمت</th>
-                                                        <th class="text-left">مقدار</th>
-                                                        <th class="text-left">مجموع</th>
+                                                        <th class="text-right">نام محصول</th>
+                                                        <th>قیمت</th>
+                                                        <th>مقدار</th>
+                                                        <th>مجموع</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="product-remove text-left"><a href=""><i
+                                                <tbody class="">
+                                                    <tr class="tr-border">
+                                                        <td class="product-remove text-right"><a href=""><i
                                                             class="flaticon flaticon-cross"></i></a>
                                                         </td>
-                                                        <td class="product-thumbnail text-left">
-                                                            <img src="assets/img/products/prod-10-70x88.jpg" alt="Product Thumnail">
+                                                        <td class="product-thumbnail text-right">
+                                                            <img src="assets/img/prod-10-70x88.jpg" alt="Product Thumnail w-100">
                                                         </td>
                                                         <td class="product-name wide-column">
                                                             <h3>
@@ -334,13 +334,13 @@
                                                     <span class="money">۲۹۶,۰۰۰ تومان</span>
                                                             </span>
                                                         </td>
-                                                    </tr>
+                                                    </tr class="tr-border">
                                                     <tr>
-                                                        <td class="product-remove text-left"><a href=""><i
+                                                        <td class="product-remove text-right"><a href=""><i
                                                             class="flaticon flaticon-cross"></i></a>
                                                         </td>
-                                                        <td class="product-thumbnail text-left">
-                                                            <img src="assets/img/products/prod-10-70x88.jpg" alt="Product Thumnail">
+                                                        <td class="product-thumbnail text-right">
+                                                            <img src="assets/img/prod-10-70x88.jpg" alt="Product Thumnail">
                                                         </td>
                                                         <td class="product-name wide-column">
                                                             <h3>
@@ -369,43 +369,54 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row no-gutters border-top pt-5 mt-5">
-                                    <div class="col-sm-6 text-sm-right">
-                                        <button type="submit" class="cart-form__btn">خالی کردن سبد
+                                <div class="d-block border-top pt-2 mt-3">
+                                    <div class="col-sm-6 text-left">
+                                        <button type="submit" class="btn btn bg-danger">خالی کردن سبد
                                             خرید
                                         </button>
                                     </div>
                                 </div>
                             </form>
                         </div>
-                        <div class="col-lg-4">
+                        <!-- cart for pay -->
+                        <div class="col-sm-12 col-md-4">
                             <div class="cart-collaterals">
                                 <div class="cart-totals">
-                                    <h5 class="font-size-14 font-bold mb--15">مجموع</h5>
+                                    <h5 class="mb-4 text-center">مجموع</h5>
                                     <div class="cart-calculator">
-                                        <div class="cart-calculator__item">
-                                            <div class="cart-calculator__item--head">
-                                                <span>مجموع</span>
+                                        <div class="d-flex flex-wrap">
+                                            <div class="cart-calculator-item-head">
+                                                <span> مجموع قیمت کالا ها: </span>
                                             </div>
-                                            <div class="cart-calculator__item--value">
+                                            <div class="cart-calculator-item-value">
                                                 <span>۳۴۶,۰۰۰ تومان</span>
                                             </div>
                                         </div>
-                                        <div class="cart-calculator__item order-total">
-                                            <div class="cart-calculator__item--head">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="cart-calculator-item-head">
+                                                <span>هزینه ارسال</span>
+                                            </div>
+                                            <div class="cart-calculator-item-value">
+                                                <span>۳۴۶,۰۰۰ تومان</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-wrap total-price">
+                                            <div class="cart-calculator-item-head">
                                                 <span>جمع کل</span>
                                             </div>
-                                            <div class="cart-calculator__item--value">
+                                            <div class="cart-calculator-item-value">
                                                 <span class="product-price-wrapper">
-                                        <span class="money">۳۴۶,۰۰۰ تومان</span>
+                                                <span class="money">۳۴۶,۰۰۰ تومان</span>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="checkout.html" class="btn btn-fullwidth btn-bg-red btn-color-white btn-hover-2">
-                                    ثبت سفارش
-                                </a>
+                                <div>
+                                    <a href="#" class="btn-submit text-decoration-none">
+                                        ثبت سفارش
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
