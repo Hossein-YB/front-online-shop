@@ -1,0 +1,36 @@
+.custom-card{
+    margin: 2px;
+    padding: 0.5rem;
+    width: 18rem;
+    border: none;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.custom-card:hover{
+    /*background-color: #979797;*/
+    box-shadow: 2px 2px 2px 2px #c8c5c5;
+    z-index: 100;
+}
+.card-banner span.product-offer{
+    padding: 0.3rem;
+    border-radius: 0.26rem;
+    left: 10px;
+    top: 25px;
+}
+
+.custom-card-body span.p-s-first{
+    color: red;
+}
+.custom-card-body span.p-s-second{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.custom-card-body span.p-s-third{
+    color: #1c7430;
+}
+.custom-card-body div p.price{
+    font-size: 14px;
+    line-height: 1.4rem;
+}
