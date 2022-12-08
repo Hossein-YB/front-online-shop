@@ -95,26 +95,54 @@ $(".qtybutton").on("click", function() {
     }
     $button.parent().find("input").val(newVal);
 });
-
+/* owl carousel */
 $('.owl-carousel-1').owlCarousel({
-    rtl: true,
-    loop: true,
-    responsive: {
-        0: {
-            items: 4,
-            nav: true,
-        },
-        600: {
-            items: 7,
-            nav: false
-        },
-        1000: {
-            items: 9,
-            nav: true,
-            loop: false
+        rtl: true,
+        loop: true,
+        responsive: {
+            0: {
+                items: 4,
+                nav: true,
+            },
+            600: {
+                items: 7,
+                nav: false
+            },
+            1000: {
+                items: 9,
+                nav: true,
+                loop: false
+            }
         }
+    })
+    /* close btn */
+$('.btn-close').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    $this.parents('.open').removeClass('open');
+    $($overlay).removeClass('overlay-open');
+});
+
+
+$('.toolbar-btn').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var $this = $(this);
+    var target = $this.attr('href');
+    var prevTarget = $('.toolbar-btn').attr('href');
+    var prevTarget = $this.parent().siblings().children('.toolbar-btn').attr('href');
+    $(target).toggleClass('open');
+    $(prevTarget).removeClass('open');
+    $($overlay).addClass('overlay-open');
+    if ($this.attr('class').match(/\b(menu-btn)\b/)) {
+        $this.toggleClass('open');
+        $($overlay).removeClass('overlay-open');
     }
-})
+});
+
+
+
+
 $('.tt').toolip('show');
 
 $('.po').popover('show');
