@@ -1,0 +1,61 @@
+.pagination {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+}
+
+.pagination li .page-number {
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.pagination li {
+    margin-right: 10px;
+}
+
+.pagination li .page-number.prev,
+.pagination li .page-number.next {
+    background-color: transparent;
+}
+
+.pagination li .page-number {
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+    color: #111111;
+}
+
+.pagination li .page-number {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    position: relative;
+    background: #f0f0f0;
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+
+.pagination li .page-number.current,
+.pagination li .page-number:hover {
+    background-color: #111111;
+}
+
+.pagination li .page-number.current,
+.pagination li .page-number:hover {
+    color: #ffffff;
+}
