@@ -15,6 +15,7 @@
 @import '_cart.css';
 @import '_products.css';
 @import '_pagination.css';
+@import '_check_out.css';
 @import '_shop_cart.css';
 p {
     margin: 0px;
