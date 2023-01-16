@@ -49,18 +49,9 @@ ul.nav.justify-content-center li.nav-item a:hover {
     border-radius: 5%;
 }
 
-.fourth-content {
-    height: 187px;
-    border-radius: 5%;
-}
-
-.fiveth-content {
-    height: 213px;
-    border-radius: 5%;
-}
-
 .caption-blog {
     position: absolute;
+    padding: 2px;
     right: 1.5%;
     bottom: 8px;
     left: 1.5%;
@@ -71,4 +62,20 @@ ul.nav.justify-content-center li.nav-item a:hover {
     -webkit-backdrop-filter: (100px);
     backdrop-filter: grayscale(100%);
     font-size: 14px;
+}
+
+@media screen and (max-width:750px) {
+    .first-content {
+        display: block;
+        height: 250px;
+    }
+    .second-content {
+        height: 200px;
+    }
+    .third-content {
+        height: 170px;
+    }
+    .caption-blog {
+        font-size: 12px;
+    }
 }
