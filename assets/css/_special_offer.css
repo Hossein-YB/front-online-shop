@@ -138,6 +138,10 @@
     margin-bottom: 10px;
 }
 
+.owl-carousel div.owl-nav button span {
+    font-family: initial;
+}
+
 @media (min-width: 599px) and (max-width: 716px) {
     .offer-img {
         overflow: hidden;
