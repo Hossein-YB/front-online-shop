@@ -76,6 +76,32 @@ $('.owl-carousel-0').owlCarousel({
     }
 })
 
+$('.owl-carousel-blog').owlCarousel({
+    rtl: true,
+    lazyLoad: true,
+    margin: 4,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true,
+            autoHeight: true
+        },
+        600: {
+            items: 4,
+            nav: false
+        },
+        1000: {
+            items: 5,
+            nav: true,
+            loop: false
+        }
+    }
+})
+
 /* Product Quantity */
 
 $(".quantity").append('<div class="dec qtybutton">-</div><div class="inc qtybutton">+</div>');

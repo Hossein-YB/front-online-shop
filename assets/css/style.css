@@ -18,6 +18,21 @@
 @import '_check_out.css';
 @import '_style_blog.css';
 @import '_shop_cart.css';
+.show-more {
+    margin-right: 13px;
+    color: #1b1b1b;
+    border: solid 1px #5e7879;
+    padding: 7px 21px;
+    text-decoration: none;
+    border-radius: 51%;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
 p {
     margin: 0px;
 }
