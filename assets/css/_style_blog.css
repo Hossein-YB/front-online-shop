@@ -180,3 +180,12 @@ ul.nav.justify-content-center li.nav-item a:hover {
 .main-section-footer-blog h5 {
     border: 0px;
 }
+
+
+/* start post-list-blig style*/
+
+.post-counter {
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 200;
+}
