@@ -173,3 +173,10 @@ ul.nav.justify-content-center li.nav-item a:hover {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
+
+/* footer */
+
+.main-section-footer-blog h5 {
+    border: 0px;
+}
